@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+					<html>
+					<head>
+    					<title>Problexity analysis - Complexity of the Dataset</title>
+					</head>
+					<body>
+					<h1>Complexity of the Dataset</h1>
+					<h2>n_samples</h2>768<br><h2>n_features</h2>8<br><h2>score</h2>0.492<br><h2>n_classes</h2>2<br><h2>classes</h2>2<br><h2>prior_probability</h2>[0.65104167 0.34895833]<br><h2>Complexities</h2><h3>f1</h3>Calculates the Maximum Fisher’s discriminant ratio (F1) metric.
+Measure describes the overlap of feature values in each class.<br>RESULT: 0.642<br><h3>f1v</h3>Calculates the Directional vector maximum Fisher’s discriminant ratio (F1v) metric.<br>RESULT: 0.343<br><h3>density</h3>Calculates the Density metric.
+Generates an epsilon-Nearest Neighbours graph. The epsilon value is set to 0.15. The edges are selected based on the Gower distance between samples, normalized to the range between 0 and 1. Edges between instances of distinct classes are removed. The measure calculates the number of edges in the final graph divided by the total possible number of edges.<br>RESULT: 0.925<br><h3>clsCoef</h3>Calculates the Clustering Coefficient metric.
+Generates an epsilon-Nearest Neighbours graph. The epsilon value is set to 0.15. The edges are selected based on the Gower distance between samples, normalized to the range between 0 and 1. Edges between instances of distinct classes are removed. The neighborhood of each vertex is calculated – the instances directly connected to it. Then, the number of edges between the sample’s neighbors is calculated and divided by the maximum possible number of edges between them. The final measure is calculated based on the neighborhood of each point.<br>RESULT: 0.485<br><h3>c1</h3>Calculates the Entropy of Class Proportions (C1) metric.<br>RESULT: 0.067<br><h1>Complexity plot</h1>
+					<img src="complexity_calculator_labels.svg" alt="Complexity plot" width="1000" height="1000">
+					</body>
+					</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+					<html>
+					<head>
+    					<title>Problexity analysis - Complexity of the Dataset</title>
+					</head>
+					<body>
+					<h1>Complexity of the Dataset</h1>
+					<h2>n_samples</h2>1143<br><h2>n_features</h2>12<br><h2>score</h2>0.604<br><h2>n_classes</h2>6<br><h2>classes</h2>6<br><h2>prior_probability</h2>[0.00524934 0.02887139 0.42257218 0.40419948 0.12510936 0.01399825]<br><h2>complexities_std</h2>{'f1': 0.211, 'f1v': 0.152, 'density': 0.014, 'clsCoef': 0.148, 'c1': 0.301}<br><h2>Complexities</h2><h3>f1</h3>Calculates the Maximum Fisher’s discriminant ratio (F1) metric.
+Measure describes the overlap of feature values in each class.<br>RESULT: 0.717<br><h3>f1v</h3>Calculates the Directional vector maximum Fisher’s discriminant ratio (F1v) metric.<br>RESULT: 0.199<br><h3>density</h3>Calculates the Density metric.
+Generates an epsilon-Nearest Neighbours graph. The epsilon value is set to 0.15. The edges are selected based on the Gower distance between samples, normalized to the range between 0 and 1. Edges between instances of distinct classes are removed. The measure calculates the number of edges in the final graph divided by the total possible number of edges.<br>RESULT: 0.972<br><h3>clsCoef</h3>Calculates the Clustering Coefficient metric.
+Generates an epsilon-Nearest Neighbours graph. The epsilon value is set to 0.15. The edges are selected based on the Gower distance between samples, normalized to the range between 0 and 1. Edges between instances of distinct classes are removed. The neighborhood of each vertex is calculated – the instances directly connected to it. Then, the number of edges between the sample’s neighbors is calculated and divided by the maximum possible number of edges between them. The final measure is calculated based on the neighborhood of each point.<br>RESULT: 0.643<br><h3>c1</h3>Calculates the Entropy of Class Proportions (C1) metric.<br>RESULT: 0.489<br><h1>Complexity plot</h1>
+					<img src="complexity_calculator_labels.svg" alt="Complexity plot" width="1000" height="1000">
+					</body>
+					</html>

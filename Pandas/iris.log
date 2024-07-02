@@ -1,0 +1,372 @@
+No specific columns were given. Reading all columns.
+Normalizing data with MinMaxScaler
+Data normalized
+Normalizing data with StandardScaler
+Data normalized
+--------------------------------------------------
+Executing function: bivariate_plots
+Time elapsed for bivariate_plots:  0:00:00.300280
+Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}
+--------------------------------------------------
+Executing function: bivariate_plots_labels
+Time elapsed for bivariate_plots_labels:  0:00:00.042321
+Parameters used:  {'go.Scatter': {'mode': 'lines'}}
+--------------------------------------------------
+Executing function: boxplot
+Time elapsed for boxplot:  0:00:00.011838
+Parameters used:  {'go.Box': {'boxmean': True}}
+--------------------------------------------------
+Executing function: boxplot_labels
+Time elapsed for boxplot_labels:  0:00:00.011863
+Parameters used:  {'go.Box': {'boxmean': True}}
+--------------------------------------------------
+Executing function: complexity_calculator_labels
+Time elapsed for complexity_calculator_labels:  0:00:00.169226
+Parameters used:  {'ComplexityCalculator': {'metrics': [<function f1 at 0x1745e4e00>, <function f1v at 0x1745e4ea0>, <function density at 0x1745e5b20>, <function clsCoef at 0x17488cd60>, <function c1 at 0x17488d080>], 'mode': 'classification', 'colors': ['#FD0100', '#F76915', '#EEDE04'], 'weights': array([1., 1., 1., 1., 1.]), 'ranges': {'FB': 2, 'NE': 2, 'CI': 1}}}
+--------------------------------------------------
+Executing function: correlation_heatmap
+Error in function: correlation_heatmap
+could not convert string to float: 'Iris-setosa'
+Time elapsed for correlation_heatmap:  0:00:00.000556
+Parameters used:  {'go.Heatmap': {}, 'method': ['pearson', 'kendall', 'spearman']}
+--------------------------------------------------
+Executing function: correlation_heatmap_labels
+Time elapsed for correlation_heatmap_labels:  0:00:00.057158
+Parameters used:  {'go.Heatmap': {}, 'method': ['pearson', 'kendall', 'spearman']}
+--------------------------------------------------
+Executing function: describe
+Data includes NaN
+Error in function: describe
+cannot access local variable 'original_df' where it is not associated with a value
+Time elapsed for describe:  0:00:00.000006
+Normalization used: IncludeNAN
+Parameters used:  None
+--------------------------------------------------
+Executing function: describe_labels
+Data includes NaN
+Error in function: describe_labels
+cannot access local variable 'original_df' where it is not associated with a value
+Time elapsed for describe_labels:  0:00:00.000002
+Normalization used: IncludeNAN
+Parameters used:  None
+--------------------------------------------------
+Executing function: histogram
+Time elapsed for histogram:  0:00:00.013817
+Parameters used:  {'go.Histogram': {}}
+--------------------------------------------------
+Executing function: histogram_labels
+Time elapsed for histogram_labels:  0:00:00.014187
+Parameters used:  {'go.Histogram': {}}
+--------------------------------------------------
+Executing function: kmeans
+Data normalized with MinMaxScaler
+Kmeans 2 clusters
+Error in function: kmeans
+could not convert string to float: 'Iris-setosa'
+Time elapsed for kmeans:  0:00:00.000254
+Normalization used: MinMaxScaler
+Parameters used:  {'KMeans': {'n_init': 'auto'}, 'go.Scatter': {'mode': 'markers'}, 'number_clusters': [2, 3, 5]}
+--------------------------------------------------
+Executing function: kmeans_labels
+Data normalized with MinMaxScaler
+Kmeans 2 clusters
+Error in function: kmeans_labels
+
+    Invalid value of type 'builtins.str' received for the 'color' property of scatter.marker
+        Received value: 'Iris-setosa'
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+Time elapsed for kmeans_labels:  0:00:00.090837
+Normalization used: MinMaxScaler
+Parameters used:  {'KMeans': {'n_init': 'auto'}, 'go.Scatter': {'mode': 'markers'}, 'number_clusters': [2, 3, 5]}
+--------------------------------------------------
+Executing function: minisom
+Data normalized with MinMaxScaler
+Error in function: minisom
+unsupported operand type(s) for /: 'str' and 'int'
+Time elapsed for minisom:  0:00:00.000409
+Normalization used: MinMaxScaler
+Parameters used:  {'MiniSom': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}, 'grid_size': 2, 'train_portion': 0.5}
+--------------------------------------------------
+Executing function: minisom_labels
+Data normalized with MinMaxScaler
+ [  0 / 15 ]   0% - ? it/s [  0 / 15 ]   0% - ? it/s [  1 / 15 ]   7% - 0:00:00 left  [  2 / 15 ]  13% - 0:00:00 left  [  3 / 15 ]  20% - 0:00:00 left  [  4 / 15 ]  27% - 0:00:00 left  [  5 / 15 ]  33% - 0:00:00 left  [  6 / 15 ]  40% - 0:00:00 left  [  7 / 15 ]  47% - 0:00:00 left  [  8 / 15 ]  53% - 0:00:00 left  [  9 / 15 ]  60% - 0:00:00 left  [ 10 / 15 ]  67% - 0:00:00 left  [ 11 / 15 ]  73% - 0:00:00 left  [ 12 / 15 ]  80% - 0:00:00 left  [ 13 / 15 ]  87% - 0:00:00 left  [ 14 / 15 ]  93% - 0:00:00 left  [ 15 / 15 ] 100% - 0:00:00 left 
+ quantization error: 0.7299496085976581
+Error in function: minisom_labels
+
+    Invalid value of type 'builtins.str' received for the 'color' property of scatter.marker
+        Received value: 'Iris-setosa'
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+Time elapsed for minisom_labels:  0:00:00.002053
+Normalization used: MinMaxScaler
+Parameters used:  {'MiniSom': {}, 'go.Scatter': {'mode': 'markers'}, 'grid_size': 2, 'train_portion': 0.1}
+--------------------------------------------------
+Executing function: pca
+Data normalized with StandardScaler
+Error in function: pca
+could not convert string to float: 'Iris-setosa'
+Time elapsed for pca:  0:00:00.000370
+Normalization used: StandardScaler
+Parameters used:  {'2D': {'PCA': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}, '3D': {'PCA': {}, 'go.Scatter3d': {'marker': {'size': 3}, 'mode': 'markers'}}}
+--------------------------------------------------
+Executing function: pca_labels
+Data normalized with StandardScaler
+Time elapsed for pca_labels:  0:00:00.041991
+Normalization used: StandardScaler
+Parameters used:  {'2D': {'PCA': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}, '3D': {'PCA': {}, 'go.Scatter3d': {'marker': {'size': 3}, 'mode': 'markers'}}}
+--------------------------------------------------
+Executing function: qq_plot
+Error in function: qq_plot
+unsupported operand type(s) for /: 'str' and 'int'
+Time elapsed for qq_plot:  0:00:00.092918
+Parameters used:  None
+--------------------------------------------------
+Executing function: qq_plot_labels
+Error in function: qq_plot_labels
+unsupported operand type(s) for /: 'str' and 'int'
+Time elapsed for qq_plot_labels:  0:00:00.209080
+Parameters used:  None
+--------------------------------------------------
+Executing function: tsne
+Error in function: tsne
+could not convert string to float: 'Iris-setosa'
+Time elapsed for tsne:  0:00:00.000307
+Parameters used:  {'2D': {'TSNE': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}, '3D': {'TSNE': {}, 'go.Scatter3d': {'marker': {'size': 3}, 'mode': 'markers'}}}
+--------------------------------------------------
+Executing function: tsne_labels
+Error in function: tsne_labels
+
+    Invalid value of type 'builtins.str' received for the 'color' property of scatter.marker
+        Received value: 'Iris-setosa'
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+Time elapsed for tsne_labels:  0:00:00.326845
+Parameters used:  {'2D': {'TSNE': {}, 'go.Scatter': {'mode': 'markers'}}, '3D': {'TSNE': {}, 'go.Scatter3d': {'mode': 'markers'}}}
+--------------------------------------------------
+Executing function: umap
+Data normalized with StandardScaler
+Error in function: umap
+could not convert string to float: 'Iris-setosa'
+Time elapsed for umap:  0:00:00.000196
+Normalization used: StandardScaler
+Parameters used:  {'2D': {'UMAP': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}, '3D': {'UMAP': {}, 'go.Scatter3d': {'marker': {'size': 3}, 'mode': 'markers'}}}
+--------------------------------------------------
+Executing function: umap_labels
+Data normalized with StandardScaler
+Error in function: umap_labels
+
+    Invalid value of type 'builtins.str' received for the 'color' property of scatter.marker
+        Received value: 'Iris-setosa'
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+Time elapsed for umap_labels:  0:00:02.558902
+Normalization used: StandardScaler
+Parameters used:  {'2D': {'UMAP': {}, 'go.Scatter': {'mode': 'markers'}}, '3D': {'UMAP': {}, 'go.Scatter3d': {'mode': 'markers'}}}
+--------------------------------------------------
+Executing function: univariate_plots
+Time elapsed for univariate_plots:  0:00:00.013584
+Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'lines'}}
+--------------------------------------------------
+Executing function: univariate_plots_labels
+Time elapsed for univariate_plots_labels:  0:00:00.016956
+Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'lines'}}
+--------------------------------------------------
+Executing function: univariate_plots_time
+Error in function: univariate_plots_time
+("Cannot Plot 'univariate_plots_time' without 'date_column_name'. Available columns:", Index(['Id', 'SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm',
+       'Species'],
+      dtype='object'))
+Time elapsed for univariate_plots_time:  0:00:00.000156
+Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}
+--------------------------------------------------
+Executing function: univariate_plots_time_labels
+Error in function: univariate_plots_time_labels
+("Cannot Plot 'univariate_plots_time_labels' without 'date_column_name'. Available columns:", Index(['Id', 'SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm',
+       'Species'],
+      dtype='object'))
+Time elapsed for univariate_plots_time_labels:  0:00:00.000064
+Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}
+--------------------------------------------------
+Executing function: violinplot
+Time elapsed for violinplot:  0:00:00.016922
+Parameters used:  {'go.Violin': {'box_visible': True, 'meanline_visible': True}}
+--------------------------------------------------
+Executing function: violinplot_labels
+Time elapsed for violinplot_labels:  0:00:00.015665
+Parameters used:  {'go.Violin': {'box_visible': True, 'meanline_visible': True}}
+--------------------------------------------------
+Index written to /Users/vascocosta/Library/CloudStorage/OneDrive-UniversidadedeAveiro/BOLSA/TESE/automatic_eda/output_iris/index.html
+Time Total: 0:00:04.101116
