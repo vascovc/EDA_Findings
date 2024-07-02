@@ -1,4 +1,3 @@
-Creating ouput folder in  /Users/vascocosta/Library/CloudStorage/OneDrive-UniversidadedeAveiro/BOLSA/TESE/automatic_eda/output_wine/
 No specific columns were given. Reading all columns.
 Normalizing data with MinMaxScaler
 Data normalized
@@ -6,55 +5,51 @@ Normalizing data with StandardScaler
 Data normalized
 --------------------------------------------------
 Executing function: bivariate_plots
-Time elapsed for bivariate_plots:  0:00:00.418095
+Time elapsed for bivariate_plots:  0:00:00.334400
 Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}
 --------------------------------------------------
 Executing function: bivariate_plots_labels
-Time elapsed for bivariate_plots_labels:  0:00:00.273630
+Time elapsed for bivariate_plots_labels:  0:00:00.269156
 Parameters used:  {'go.Scatter': {'mode': 'lines'}}
 --------------------------------------------------
 Executing function: boxplot
-Time elapsed for boxplot:  0:00:00.023513
+Time elapsed for boxplot:  0:00:00.021955
 Parameters used:  {'go.Box': {'boxmean': True}}
 --------------------------------------------------
 Executing function: boxplot_labels
-Time elapsed for boxplot_labels:  0:00:00.032350
+Time elapsed for boxplot_labels:  0:00:00.031390
 Parameters used:  {'go.Box': {'boxmean': True}}
 --------------------------------------------------
 Executing function: complexity_calculator_labels
-Time elapsed for complexity_calculator_labels:  0:00:01.383499
-Parameters used:  {'ComplexityCalculator': {'metrics': [<function f1 at 0x16fae4e00>, <function f1v at 0x16fae4ea0>, <function density at 0x16fae5b20>, <function clsCoef at 0x16fc8cd60>, <function c1 at 0x16fc8d080>], 'mode': 'classification', 'colors': ['#FD0100', '#F76915', '#EEDE04'], 'weights': array([1., 1., 1., 1., 1.]), 'ranges': {'FB': 2, 'NE': 2, 'CI': 1}}}
+Time elapsed for complexity_calculator_labels:  0:00:00.954485
+Parameters used:  {'ComplexityCalculator': {'metrics': [<function f1 at 0x1754e4e00>, <function f1v at 0x1754e4ea0>, <function density at 0x1754e5b20>, <function clsCoef at 0x17568cd60>, <function c1 at 0x17568d080>], 'mode': 'classification', 'colors': ['#FD0100', '#F76915', '#EEDE04'], 'weights': array([1., 1., 1., 1., 1.]), 'ranges': {'FB': 2, 'NE': 2, 'CI': 1}}}
 --------------------------------------------------
 Executing function: correlation_heatmap
-Time elapsed for correlation_heatmap:  0:00:00.025713
+Time elapsed for correlation_heatmap:  0:00:00.022978
 Parameters used:  {'go.Heatmap': {}, 'method': ['pearson', 'kendall', 'spearman']}
 --------------------------------------------------
 Executing function: correlation_heatmap_labels
-Time elapsed for correlation_heatmap_labels:  0:00:00.104989
+Time elapsed for correlation_heatmap_labels:  0:00:00.084748
 Parameters used:  {'go.Heatmap': {}, 'method': ['pearson', 'kendall', 'spearman']}
 --------------------------------------------------
 Executing function: describe
 Data includes NaN
-Error in function: describe
-cannot access local variable 'original_df' where it is not associated with a value
-Time elapsed for describe:  0:00:00.000007
+Time elapsed for describe:  0:00:00.006564
 Normalization used: IncludeNAN
 Parameters used:  None
 --------------------------------------------------
 Executing function: describe_labels
 Data includes NaN
-Error in function: describe_labels
-cannot access local variable 'original_df' where it is not associated with a value
-Time elapsed for describe_labels:  0:00:00.000004
+Time elapsed for describe_labels:  0:00:00.031820
 Normalization used: IncludeNAN
 Parameters used:  None
 --------------------------------------------------
 Executing function: histogram
-Time elapsed for histogram:  0:00:00.027617
+Time elapsed for histogram:  0:00:00.027081
 Parameters used:  {'go.Histogram': {}}
 --------------------------------------------------
 Executing function: histogram_labels
-Time elapsed for histogram_labels:  0:00:00.036709
+Time elapsed for histogram_labels:  0:00:00.043181
 Parameters used:  {'go.Histogram': {}}
 --------------------------------------------------
 Executing function: kmeans
@@ -62,7 +57,7 @@ Data normalized with MinMaxScaler
 Kmeans 2 clusters
 Kmeans 3 clusters
 Kmeans 5 clusters
-Time elapsed for kmeans:  0:00:01.571660
+Time elapsed for kmeans:  0:00:01.383402
 Normalization used: MinMaxScaler
 Parameters used:  {'KMeans': {'n_init': 'auto'}, 'go.Scatter': {'mode': 'markers'}, 'number_clusters': [2, 3, 5]}
 --------------------------------------------------
@@ -71,7 +66,7 @@ Data normalized with MinMaxScaler
 Kmeans 2 clusters
 Kmeans 3 clusters
 Kmeans 5 clusters
-Time elapsed for kmeans_labels:  0:00:03.424973
+Time elapsed for kmeans_labels:  0:00:03.490887
 Normalization used: MinMaxScaler
 Parameters used:  {'KMeans': {'n_init': 'auto'}, 'go.Scatter': {'mode': 'markers'}, 'number_clusters': [2, 3, 5]}
 --------------------------------------------------
@@ -79,7 +74,7 @@ Executing function: minisom
 Data normalized with MinMaxScaler
  [   0 / 571 ]   0% - ? it/s [   0 / 571 ]   0% - ? it/s [   1 / 571 ]   0% - 0:00:00 left  [   2 / 571 ]   0% - 0:00:00 left  [   3 / 571 ]   1% - 0:00:00 left  [   4 / 571 ]   1% - 0:00:00 left  [   5 / 571 ]   1% - 0:00:00 left  [   6 / 571 ]   1% - 0:00:00 left  [   7 / 571 ]   1% - 0:00:00 left  [   8 / 571 ]   1% - 0:00:00 left  [   9 / 571 ]   2% - 0:00:00 left  [  10 / 571 ]   2% - 0:00:00 left  [  11 / 571 ]   2% - 0:00:00 left  [  12 / 571 ]   2% - 0:00:00 left  [  13 / 571 ]   2% - 0:00:00 left  [  14 / 571 ]   2% - 0:00:00 left  [  15 / 571 ]   3% - 0:00:00 left  [  16 / 571 ]   3% - 0:00:00 left  [  17 / 571 ]   3% - 0:00:00 left  [  18 / 571 ]   3% - 0:00:00 left  [  19 / 571 ]   3% - 0:00:00 left  [  20 / 571 ]   4% - 0:00:00 left  [  21 / 571 ]   4% - 0:00:00 left  [  22 / 571 ]   4% - 0:00:00 left  [  23 / 571 ]   4% - 0:00:00 left  [  24 / 571 ]   4% - 0:00:00 left  [  25 / 571 ]   4% - 0:00:00 left  [  26 / 571 ]   5% - 0:00:00 left  [  27 / 571 ]   5% - 0:00:00 left  [  28 / 571 ]   5% - 0:00:00 left  [  29 / 571 ]   5% - 0:00:00 left  [  30 / 571 ]   5% - 0:00:00 left  [  31 / 571 ]   5% - 0:00:00 left  [  32 / 571 ]   6% - 0:00:00 left  [  33 / 571 ]   6% - 0:00:00 left  [  34 / 571 ]   6% - 0:00:00 left  [  35 / 571 ]   6% - 0:00:00 left  [  36 / 571 ]   6% - 0:00:00 left  [  37 / 571 ]   6% - 0:00:00 left  [  38 / 571 ]   7% - 0:00:00 left  [  39 / 571 ]   7% - 0:00:00 left  [  40 / 571 ]   7% - 0:00:00 left  [  41 / 571 ]   7% - 0:00:00 left  [  42 / 571 ]   7% - 0:00:00 left  [  43 / 571 ]   8% - 0:00:00 left  [  44 / 571 ]   8% - 0:00:00 left  [  45 / 571 ]   8% - 0:00:00 left  [  46 / 571 ]   8% - 0:00:00 left  [  47 / 571 ]   8% - 0:00:00 left  [  48 / 571 ]   8% - 0:00:00 left  [  49 / 571 ]   9% - 0:00:00 left  [  50 / 571 ]   9% - 0:00:00 left  [  51 / 571 ]   9% - 0:00:00 left  [  52 / 571 ]   9% - 0:00:00 left  [  53 / 571 ]   9% - 0:00:00 left  [  54 / 571 ]   9% - 0:00:00 left  [  55 / 571 ]  10% - 0:00:00 left  [  56 / 571 ]  10% - 0:00:00 left  [  57 / 571 ]  10% - 0:00:00 left  [  58 / 571 ]  10% - 0:00:00 left  [  59 / 571 ]  10% - 0:00:00 left  [  60 / 571 ]  11% - 0:00:00 left  [  61 / 571 ]  11% - 0:00:00 left  [  62 / 571 ]  11% - 0:00:00 left  [  63 / 571 ]  11% - 0:00:00 left  [  64 / 571 ]  11% - 0:00:00 left  [  65 / 571 ]  11% - 0:00:00 left  [  66 / 571 ]  12% - 0:00:00 left  [  67 / 571 ]  12% - 0:00:00 left  [  68 / 571 ]  12% - 0:00:00 left  [  69 / 571 ]  12% - 0:00:00 left  [  70 / 571 ]  12% - 0:00:00 left  [  71 / 571 ]  12% - 0:00:00 left  [  72 / 571 ]  13% - 0:00:00 left  [  73 / 571 ]  13% - 0:00:00 left  [  74 / 571 ]  13% - 0:00:00 left  [  75 / 571 ]  13% - 0:00:00 left  [  76 / 571 ]  13% - 0:00:00 left  [  77 / 571 ]  13% - 0:00:00 left  [  78 / 571 ]  14% - 0:00:00 left  [  79 / 571 ]  14% - 0:00:00 left  [  80 / 571 ]  14% - 0:00:00 left  [  81 / 571 ]  14% - 0:00:00 left  [  82 / 571 ]  14% - 0:00:00 left  [  83 / 571 ]  15% - 0:00:00 left  [  84 / 571 ]  15% - 0:00:00 left  [  85 / 571 ]  15% - 0:00:00 left  [  86 / 571 ]  15% - 0:00:00 left  [  87 / 571 ]  15% - 0:00:00 left  [  88 / 571 ]  15% - 0:00:00 left  [  89 / 571 ]  16% - 0:00:00 left  [  90 / 571 ]  16% - 0:00:00 left  [  91 / 571 ]  16% - 0:00:00 left  [  92 / 571 ]  16% - 0:00:00 left  [  93 / 571 ]  16% - 0:00:00 left  [  94 / 571 ]  16% - 0:00:00 left  [  95 / 571 ]  17% - 0:00:00 left  [  96 / 571 ]  17% - 0:00:00 left  [  97 / 571 ]  17% - 0:00:00 left  [  98 / 571 ]  17% - 0:00:00 left  [  99 / 571 ]  17% - 0:00:00 left  [ 100 / 571 ]  18% - 0:00:00 left  [ 101 / 571 ]  18% - 0:00:00 left  [ 102 / 571 ]  18% - 0:00:00 left  [ 103 / 571 ]  18% - 0:00:00 left  [ 104 / 571 ]  18% - 0:00:00 left  [ 105 / 571 ]  18% - 0:00:00 left  [ 106 / 571 ]  19% - 0:00:00 left  [ 107 / 571 ]  19% - 0:00:00 left  [ 108 / 571 ]  19% - 0:00:00 left  [ 109 / 571 ]  19% - 0:00:00 left  [ 110 / 571 ]  19% - 0:00:00 left  [ 111 / 571 ]  19% - 0:00:00 left  [ 112 / 571 ]  20% - 0:00:00 left  [ 113 / 571 ]  20% - 0:00:00 left  [ 114 / 571 ]  20% - 0:00:00 left  [ 115 / 571 ]  20% - 0:00:00 left  [ 116 / 571 ]  20% - 0:00:00 left  [ 117 / 571 ]  20% - 0:00:00 left  [ 118 / 571 ]  21% - 0:00:00 left  [ 119 / 571 ]  21% - 0:00:00 left  [ 120 / 571 ]  21% - 0:00:00 left  [ 121 / 571 ]  21% - 0:00:00 left  [ 122 / 571 ]  21% - 0:00:00 left  [ 123 / 571 ]  22% - 0:00:00 left  [ 124 / 571 ]  22% - 0:00:00 left  [ 125 / 571 ]  22% - 0:00:00 left  [ 126 / 571 ]  22% - 0:00:00 left  [ 127 / 571 ]  22% - 0:00:00 left  [ 128 / 571 ]  22% - 0:00:00 left  [ 129 / 571 ]  23% - 0:00:00 left  [ 130 / 571 ]  23% - 0:00:00 left  [ 131 / 571 ]  23% - 0:00:00 left  [ 132 / 571 ]  23% - 0:00:00 left  [ 133 / 571 ]  23% - 0:00:00 left  [ 134 / 571 ]  23% - 0:00:00 left  [ 135 / 571 ]  24% - 0:00:00 left  [ 136 / 571 ]  24% - 0:00:00 left  [ 137 / 571 ]  24% - 0:00:00 left  [ 138 / 571 ]  24% - 0:00:00 left  [ 139 / 571 ]  24% - 0:00:00 left  [ 140 / 571 ]  25% - 0:00:00 left  [ 141 / 571 ]  25% - 0:00:00 left  [ 142 / 571 ]  25% - 0:00:00 left  [ 143 / 571 ]  25% - 0:00:00 left  [ 144 / 571 ]  25% - 0:00:00 left  [ 145 / 571 ]  25% - 0:00:00 left  [ 146 / 571 ]  26% - 0:00:00 left  [ 147 / 571 ]  26% - 0:00:00 left  [ 148 / 571 ]  26% - 0:00:00 left  [ 149 / 571 ]  26% - 0:00:00 left  [ 150 / 571 ]  26% - 0:00:00 left  [ 151 / 571 ]  26% - 0:00:00 left  [ 152 / 571 ]  27% - 0:00:00 left  [ 153 / 571 ]  27% - 0:00:00 left  [ 154 / 571 ]  27% - 0:00:00 left  [ 155 / 571 ]  27% - 0:00:00 left  [ 156 / 571 ]  27% - 0:00:00 left  [ 157 / 571 ]  27% - 0:00:00 left  [ 158 / 571 ]  28% - 0:00:00 left  [ 159 / 571 ]  28% - 0:00:00 left  [ 160 / 571 ]  28% - 0:00:00 left  [ 161 / 571 ]  28% - 0:00:00 left  [ 162 / 571 ]  28% - 0:00:00 left  [ 163 / 571 ]  29% - 0:00:00 left  [ 164 / 571 ]  29% - 0:00:00 left  [ 165 / 571 ]  29% - 0:00:00 left  [ 166 / 571 ]  29% - 0:00:00 left  [ 167 / 571 ]  29% - 0:00:00 left  [ 168 / 571 ]  29% - 0:00:00 left  [ 169 / 571 ]  30% - 0:00:00 left  [ 170 / 571 ]  30% - 0:00:00 left  [ 171 / 571 ]  30% - 0:00:00 left  [ 172 / 571 ]  30% - 0:00:00 left  [ 173 / 571 ]  30% - 0:00:00 left  [ 174 / 571 ]  30% - 0:00:00 left  [ 175 / 571 ]  31% - 0:00:00 left  [ 176 / 571 ]  31% - 0:00:00 left  [ 177 / 571 ]  31% - 0:00:00 left  [ 178 / 571 ]  31% - 0:00:00 left  [ 179 / 571 ]  31% - 0:00:00 left  [ 180 / 571 ]  32% - 0:00:00 left  [ 181 / 571 ]  32% - 0:00:00 left  [ 182 / 571 ]  32% - 0:00:00 left  [ 183 / 571 ]  32% - 0:00:00 left  [ 184 / 571 ]  32% - 0:00:00 left  [ 185 / 571 ]  32% - 0:00:00 left  [ 186 / 571 ]  33% - 0:00:00 left  [ 187 / 571 ]  33% - 0:00:00 left  [ 188 / 571 ]  33% - 0:00:00 left  [ 189 / 571 ]  33% - 0:00:00 left  [ 190 / 571 ]  33% - 0:00:00 left  [ 191 / 571 ]  33% - 0:00:00 left  [ 192 / 571 ]  34% - 0:00:00 left  [ 193 / 571 ]  34% - 0:00:00 left  [ 194 / 571 ]  34% - 0:00:00 left  [ 195 / 571 ]  34% - 0:00:00 left  [ 196 / 571 ]  34% - 0:00:00 left  [ 197 / 571 ]  35% - 0:00:00 left  [ 198 / 571 ]  35% - 0:00:00 left  [ 199 / 571 ]  35% - 0:00:00 left  [ 200 / 571 ]  35% - 0:00:00 left  [ 201 / 571 ]  35% - 0:00:00 left  [ 202 / 571 ]  35% - 0:00:00 left  [ 203 / 571 ]  36% - 0:00:00 left  [ 204 / 571 ]  36% - 0:00:00 left  [ 205 / 571 ]  36% - 0:00:00 left  [ 206 / 571 ]  36% - 0:00:00 left  [ 207 / 571 ]  36% - 0:00:00 left  [ 208 / 571 ]  36% - 0:00:00 left  [ 209 / 571 ]  37% - 0:00:00 left  [ 210 / 571 ]  37% - 0:00:00 left  [ 211 / 571 ]  37% - 0:00:00 left  [ 212 / 571 ]  37% - 0:00:00 left  [ 213 / 571 ]  37% - 0:00:00 left  [ 214 / 571 ]  37% - 0:00:00 left  [ 215 / 571 ]  38% - 0:00:00 left  [ 216 / 571 ]  38% - 0:00:00 left  [ 217 / 571 ]  38% - 0:00:00 left  [ 218 / 571 ]  38% - 0:00:00 left  [ 219 / 571 ]  38% - 0:00:00 left  [ 220 / 571 ]  39% - 0:00:00 left  [ 221 / 571 ]  39% - 0:00:00 left  [ 222 / 571 ]  39% - 0:00:00 left  [ 223 / 571 ]  39% - 0:00:00 left  [ 224 / 571 ]  39% - 0:00:00 left  [ 225 / 571 ]  39% - 0:00:00 left  [ 226 / 571 ]  40% - 0:00:00 left  [ 227 / 571 ]  40% - 0:00:00 left  [ 228 / 571 ]  40% - 0:00:00 left  [ 229 / 571 ]  40% - 0:00:00 left  [ 230 / 571 ]  40% - 0:00:00 left  [ 231 / 571 ]  40% - 0:00:00 left  [ 232 / 571 ]  41% - 0:00:00 left  [ 233 / 571 ]  41% - 0:00:00 left  [ 234 / 571 ]  41% - 0:00:00 left  [ 235 / 571 ]  41% - 0:00:00 left  [ 236 / 571 ]  41% - 0:00:00 left  [ 237 / 571 ]  42% - 0:00:00 left  [ 238 / 571 ]  42% - 0:00:00 left  [ 239 / 571 ]  42% - 0:00:00 left  [ 240 / 571 ]  42% - 0:00:00 left  [ 241 / 571 ]  42% - 0:00:00 left  [ 242 / 571 ]  42% - 0:00:00 left  [ 243 / 571 ]  43% - 0:00:00 left  [ 244 / 571 ]  43% - 0:00:00 left  [ 245 / 571 ]  43% - 0:00:00 left  [ 246 / 571 ]  43% - 0:00:00 left  [ 247 / 571 ]  43% - 0:00:00 left  [ 248 / 571 ]  43% - 0:00:00 left  [ 249 / 571 ]  44% - 0:00:00 left  [ 250 / 571 ]  44% - 0:00:00 left  [ 251 / 571 ]  44% - 0:00:00 left  [ 252 / 571 ]  44% - 0:00:00 left  [ 253 / 571 ]  44% - 0:00:00 left  [ 254 / 571 ]  44% - 0:00:00 left  [ 255 / 571 ]  45% - 0:00:00 left  [ 256 / 571 ]  45% - 0:00:00 left  [ 257 / 571 ]  45% - 0:00:00 left  [ 258 / 571 ]  45% - 0:00:00 left  [ 259 / 571 ]  45% - 0:00:00 left  [ 260 / 571 ]  46% - 0:00:00 left  [ 261 / 571 ]  46% - 0:00:00 left  [ 262 / 571 ]  46% - 0:00:00 left  [ 263 / 571 ]  46% - 0:00:00 left  [ 264 / 571 ]  46% - 0:00:00 left  [ 265 / 571 ]  46% - 0:00:00 left  [ 266 / 571 ]  47% - 0:00:00 left  [ 267 / 571 ]  47% - 0:00:00 left  [ 268 / 571 ]  47% - 0:00:00 left  [ 269 / 571 ]  47% - 0:00:00 left  [ 270 / 571 ]  47% - 0:00:00 left  [ 271 / 571 ]  47% - 0:00:00 left  [ 272 / 571 ]  48% - 0:00:00 left  [ 273 / 571 ]  48% - 0:00:00 left  [ 274 / 571 ]  48% - 0:00:00 left  [ 275 / 571 ]  48% - 0:00:00 left  [ 276 / 571 ]  48% - 0:00:00 left  [ 277 / 571 ]  49% - 0:00:00 left  [ 278 / 571 ]  49% - 0:00:00 left  [ 279 / 571 ]  49% - 0:00:00 left  [ 280 / 571 ]  49% - 0:00:00 left  [ 281 / 571 ]  49% - 0:00:00 left  [ 282 / 571 ]  49% - 0:00:00 left  [ 283 / 571 ]  50% - 0:00:00 left  [ 284 / 571 ]  50% - 0:00:00 left  [ 285 / 571 ]  50% - 0:00:00 left  [ 286 / 571 ]  50% - 0:00:00 left  [ 287 / 571 ]  50% - 0:00:00 left  [ 288 / 571 ]  50% - 0:00:00 left  [ 289 / 571 ]  51% - 0:00:00 left  [ 290 / 571 ]  51% - 0:00:00 left  [ 291 / 571 ]  51% - 0:00:00 left  [ 292 / 571 ]  51% - 0:00:00 left  [ 293 / 571 ]  51% - 0:00:00 left  [ 294 / 571 ]  51% - 0:00:00 left  [ 295 / 571 ]  52% - 0:00:00 left  [ 296 / 571 ]  52% - 0:00:00 left  [ 297 / 571 ]  52% - 0:00:00 left  [ 298 / 571 ]  52% - 0:00:00 left  [ 299 / 571 ]  52% - 0:00:00 left  [ 300 / 571 ]  53% - 0:00:00 left  [ 301 / 571 ]  53% - 0:00:00 left  [ 302 / 571 ]  53% - 0:00:00 left  [ 303 / 571 ]  53% - 0:00:00 left  [ 304 / 571 ]  53% - 0:00:00 left  [ 305 / 571 ]  53% - 0:00:00 left  [ 306 / 571 ]  54% - 0:00:00 left  [ 307 / 571 ]  54% - 0:00:00 left  [ 308 / 571 ]  54% - 0:00:00 left  [ 309 / 571 ]  54% - 0:00:00 left  [ 310 / 571 ]  54% - 0:00:00 left  [ 311 / 571 ]  54% - 0:00:00 left  [ 312 / 571 ]  55% - 0:00:00 left  [ 313 / 571 ]  55% - 0:00:00 left  [ 314 / 571 ]  55% - 0:00:00 left  [ 315 / 571 ]  55% - 0:00:00 left  [ 316 / 571 ]  55% - 0:00:00 left  [ 317 / 571 ]  56% - 0:00:00 left  [ 318 / 571 ]  56% - 0:00:00 left  [ 319 / 571 ]  56% - 0:00:00 left  [ 320 / 571 ]  56% - 0:00:00 left  [ 321 / 571 ]  56% - 0:00:00 left  [ 322 / 571 ]  56% - 0:00:00 left  [ 323 / 571 ]  57% - 0:00:00 left  [ 324 / 571 ]  57% - 0:00:00 left  [ 325 / 571 ]  57% - 0:00:00 left  [ 326 / 571 ]  57% - 0:00:00 left  [ 327 / 571 ]  57% - 0:00:00 left  [ 328 / 571 ]  57% - 0:00:00 left  [ 329 / 571 ]  58% - 0:00:00 left  [ 330 / 571 ]  58% - 0:00:00 left  [ 331 / 571 ]  58% - 0:00:00 left  [ 332 / 571 ]  58% - 0:00:00 left  [ 333 / 571 ]  58% - 0:00:00 left  [ 334 / 571 ]  58% - 0:00:00 left  [ 335 / 571 ]  59% - 0:00:00 left  [ 336 / 571 ]  59% - 0:00:00 left  [ 337 / 571 ]  59% - 0:00:00 left  [ 338 / 571 ]  59% - 0:00:00 left  [ 339 / 571 ]  59% - 0:00:00 left  [ 340 / 571 ]  60% - 0:00:00 left  [ 341 / 571 ]  60% - 0:00:00 left  [ 342 / 571 ]  60% - 0:00:00 left  [ 343 / 571 ]  60% - 0:00:00 left  [ 344 / 571 ]  60% - 0:00:00 left  [ 345 / 571 ]  60% - 0:00:00 left  [ 346 / 571 ]  61% - 0:00:00 left  [ 347 / 571 ]  61% - 0:00:00 left  [ 348 / 571 ]  61% - 0:00:00 left  [ 349 / 571 ]  61% - 0:00:00 left  [ 350 / 571 ]  61% - 0:00:00 left  [ 351 / 571 ]  61% - 0:00:00 left  [ 352 / 571 ]  62% - 0:00:00 left  [ 353 / 571 ]  62% - 0:00:00 left  [ 354 / 571 ]  62% - 0:00:00 left  [ 355 / 571 ]  62% - 0:00:00 left  [ 356 / 571 ]  62% - 0:00:00 left  [ 357 / 571 ]  63% - 0:00:00 left  [ 358 / 571 ]  63% - 0:00:00 left  [ 359 / 571 ]  63% - 0:00:00 left  [ 360 / 571 ]  63% - 0:00:00 left  [ 361 / 571 ]  63% - 0:00:00 left  [ 362 / 571 ]  63% - 0:00:00 left  [ 363 / 571 ]  64% - 0:00:00 left  [ 364 / 571 ]  64% - 0:00:00 left  [ 365 / 571 ]  64% - 0:00:00 left  [ 366 / 571 ]  64% - 0:00:00 left  [ 367 / 571 ]  64% - 0:00:00 left  [ 368 / 571 ]  64% - 0:00:00 left  [ 369 / 571 ]  65% - 0:00:00 left  [ 370 / 571 ]  65% - 0:00:00 left  [ 371 / 571 ]  65% - 0:00:00 left  [ 372 / 571 ]  65% - 0:00:00 left  [ 373 / 571 ]  65% - 0:00:00 left  [ 374 / 571 ]  65% - 0:00:00 left  [ 375 / 571 ]  66% - 0:00:00 left  [ 376 / 571 ]  66% - 0:00:00 left  [ 377 / 571 ]  66% - 0:00:00 left  [ 378 / 571 ]  66% - 0:00:00 left  [ 379 / 571 ]  66% - 0:00:00 left  [ 380 / 571 ]  67% - 0:00:00 left  [ 381 / 571 ]  67% - 0:00:00 left  [ 382 / 571 ]  67% - 0:00:00 left  [ 383 / 571 ]  67% - 0:00:00 left  [ 384 / 571 ]  67% - 0:00:00 left  [ 385 / 571 ]  67% - 0:00:00 left  [ 386 / 571 ]  68% - 0:00:00 left  [ 387 / 571 ]  68% - 0:00:00 left  [ 388 / 571 ]  68% - 0:00:00 left  [ 389 / 571 ]  68% - 0:00:00 left  [ 390 / 571 ]  68% - 0:00:00 left  [ 391 / 571 ]  68% - 0:00:00 left  [ 392 / 571 ]  69% - 0:00:00 left  [ 393 / 571 ]  69% - 0:00:00 left  [ 394 / 571 ]  69% - 0:00:00 left  [ 395 / 571 ]  69% - 0:00:00 left  [ 396 / 571 ]  69% - 0:00:00 left  [ 397 / 571 ]  70% - 0:00:00 left  [ 398 / 571 ]  70% - 0:00:00 left  [ 399 / 571 ]  70% - 0:00:00 left  [ 400 / 571 ]  70% - 0:00:00 left  [ 401 / 571 ]  70% - 0:00:00 left  [ 402 / 571 ]  70% - 0:00:00 left  [ 403 / 571 ]  71% - 0:00:00 left  [ 404 / 571 ]  71% - 0:00:00 left  [ 405 / 571 ]  71% - 0:00:00 left  [ 406 / 571 ]  71% - 0:00:00 left  [ 407 / 571 ]  71% - 0:00:00 left  [ 408 / 571 ]  71% - 0:00:00 left  [ 409 / 571 ]  72% - 0:00:00 left  [ 410 / 571 ]  72% - 0:00:00 left  [ 411 / 571 ]  72% - 0:00:00 left  [ 412 / 571 ]  72% - 0:00:00 left  [ 413 / 571 ]  72% - 0:00:00 left  [ 414 / 571 ]  73% - 0:00:00 left  [ 415 / 571 ]  73% - 0:00:00 left  [ 416 / 571 ]  73% - 0:00:00 left  [ 417 / 571 ]  73% - 0:00:00 left  [ 418 / 571 ]  73% - 0:00:00 left  [ 419 / 571 ]  73% - 0:00:00 left  [ 420 / 571 ]  74% - 0:00:00 left  [ 421 / 571 ]  74% - 0:00:00 left  [ 422 / 571 ]  74% - 0:00:00 left  [ 423 / 571 ]  74% - 0:00:00 left  [ 424 / 571 ]  74% - 0:00:00 left  [ 425 / 571 ]  74% - 0:00:00 left  [ 426 / 571 ]  75% - 0:00:00 left  [ 427 / 571 ]  75% - 0:00:00 left  [ 428 / 571 ]  75% - 0:00:00 left  [ 429 / 571 ]  75% - 0:00:00 left  [ 430 / 571 ]  75% - 0:00:00 left  [ 431 / 571 ]  75% - 0:00:00 left  [ 432 / 571 ]  76% - 0:00:00 left  [ 433 / 571 ]  76% - 0:00:00 left  [ 434 / 571 ]  76% - 0:00:00 left  [ 435 / 571 ]  76% - 0:00:00 left  [ 436 / 571 ]  76% - 0:00:00 left  [ 437 / 571 ]  77% - 0:00:00 left  [ 438 / 571 ]  77% - 0:00:00 left  [ 439 / 571 ]  77% - 0:00:00 left  [ 440 / 571 ]  77% - 0:00:00 left  [ 441 / 571 ]  77% - 0:00:00 left  [ 442 / 571 ]  77% - 0:00:00 left  [ 443 / 571 ]  78% - 0:00:00 left  [ 444 / 571 ]  78% - 0:00:00 left  [ 445 / 571 ]  78% - 0:00:00 left  [ 446 / 571 ]  78% - 0:00:00 left  [ 447 / 571 ]  78% - 0:00:00 left  [ 448 / 571 ]  78% - 0:00:00 left  [ 449 / 571 ]  79% - 0:00:00 left  [ 450 / 571 ]  79% - 0:00:00 left  [ 451 / 571 ]  79% - 0:00:00 left  [ 452 / 571 ]  79% - 0:00:00 left  [ 453 / 571 ]  79% - 0:00:00 left  [ 454 / 571 ]  80% - 0:00:00 left  [ 455 / 571 ]  80% - 0:00:00 left  [ 456 / 571 ]  80% - 0:00:00 left  [ 457 / 571 ]  80% - 0:00:00 left  [ 458 / 571 ]  80% - 0:00:00 left  [ 459 / 571 ]  80% - 0:00:00 left  [ 460 / 571 ]  81% - 0:00:00 left  [ 461 / 571 ]  81% - 0:00:00 left  [ 462 / 571 ]  81% - 0:00:00 left  [ 463 / 571 ]  81% - 0:00:00 left  [ 464 / 571 ]  81% - 0:00:00 left  [ 465 / 571 ]  81% - 0:00:00 left  [ 466 / 571 ]  82% - 0:00:00 left  [ 467 / 571 ]  82% - 0:00:00 left  [ 468 / 571 ]  82% - 0:00:00 left  [ 469 / 571 ]  82% - 0:00:00 left  [ 470 / 571 ]  82% - 0:00:00 left  [ 471 / 571 ]  82% - 0:00:00 left  [ 472 / 571 ]  83% - 0:00:00 left  [ 473 / 571 ]  83% - 0:00:00 left  [ 474 / 571 ]  83% - 0:00:00 left  [ 475 / 571 ]  83% - 0:00:00 left  [ 476 / 571 ]  83% - 0:00:00 left  [ 477 / 571 ]  84% - 0:00:00 left  [ 478 / 571 ]  84% - 0:00:00 left  [ 479 / 571 ]  84% - 0:00:00 left  [ 480 / 571 ]  84% - 0:00:00 left  [ 481 / 571 ]  84% - 0:00:00 left  [ 482 / 571 ]  84% - 0:00:00 left  [ 483 / 571 ]  85% - 0:00:00 left  [ 484 / 571 ]  85% - 0:00:00 left  [ 485 / 571 ]  85% - 0:00:00 left  [ 486 / 571 ]  85% - 0:00:00 left  [ 487 / 571 ]  85% - 0:00:00 left  [ 488 / 571 ]  85% - 0:00:00 left  [ 489 / 571 ]  86% - 0:00:00 left  [ 490 / 571 ]  86% - 0:00:00 left  [ 491 / 571 ]  86% - 0:00:00 left  [ 492 / 571 ]  86% - 0:00:00 left  [ 493 / 571 ]  86% - 0:00:00 left  [ 494 / 571 ]  87% - 0:00:00 left  [ 495 / 571 ]  87% - 0:00:00 left  [ 496 / 571 ]  87% - 0:00:00 left  [ 497 / 571 ]  87% - 0:00:00 left  [ 498 / 571 ]  87% - 0:00:00 left  [ 499 / 571 ]  87% - 0:00:00 left  [ 500 / 571 ]  88% - 0:00:00 left  [ 501 / 571 ]  88% - 0:00:00 left  [ 502 / 571 ]  88% - 0:00:00 left  [ 503 / 571 ]  88% - 0:00:00 left  [ 504 / 571 ]  88% - 0:00:00 left  [ 505 / 571 ]  88% - 0:00:00 left  [ 506 / 571 ]  89% - 0:00:00 left  [ 507 / 571 ]  89% - 0:00:00 left  [ 508 / 571 ]  89% - 0:00:00 left  [ 509 / 571 ]  89% - 0:00:00 left  [ 510 / 571 ]  89% - 0:00:00 left  [ 511 / 571 ]  89% - 0:00:00 left  [ 512 / 571 ]  90% - 0:00:00 left  [ 513 / 571 ]  90% - 0:00:00 left  [ 514 / 571 ]  90% - 0:00:00 left  [ 515 / 571 ]  90% - 0:00:00 left  [ 516 / 571 ]  90% - 0:00:00 left  [ 517 / 571 ]  91% - 0:00:00 left  [ 518 / 571 ]  91% - 0:00:00 left  [ 519 / 571 ]  91% - 0:00:00 left  [ 520 / 571 ]  91% - 0:00:00 left  [ 521 / 571 ]  91% - 0:00:00 left  [ 522 / 571 ]  91% - 0:00:00 left  [ 523 / 571 ]  92% - 0:00:00 left  [ 524 / 571 ]  92% - 0:00:00 left  [ 525 / 571 ]  92% - 0:00:00 left  [ 526 / 571 ]  92% - 0:00:00 left  [ 527 / 571 ]  92% - 0:00:00 left  [ 528 / 571 ]  92% - 0:00:00 left  [ 529 / 571 ]  93% - 0:00:00 left  [ 530 / 571 ]  93% - 0:00:00 left  [ 531 / 571 ]  93% - 0:00:00 left  [ 532 / 571 ]  93% - 0:00:00 left  [ 533 / 571 ]  93% - 0:00:00 left  [ 534 / 571 ]  94% - 0:00:00 left  [ 535 / 571 ]  94% - 0:00:00 left  [ 536 / 571 ]  94% - 0:00:00 left  [ 537 / 571 ]  94% - 0:00:00 left  [ 538 / 571 ]  94% - 0:00:00 left  [ 539 / 571 ]  94% - 0:00:00 left  [ 540 / 571 ]  95% - 0:00:00 left  [ 541 / 571 ]  95% - 0:00:00 left  [ 542 / 571 ]  95% - 0:00:00 left  [ 543 / 571 ]  95% - 0:00:00 left  [ 544 / 571 ]  95% - 0:00:00 left  [ 545 / 571 ]  95% - 0:00:00 left  [ 546 / 571 ]  96% - 0:00:00 left  [ 547 / 571 ]  96% - 0:00:00 left  [ 548 / 571 ]  96% - 0:00:00 left  [ 549 / 571 ]  96% - 0:00:00 left  [ 550 / 571 ]  96% - 0:00:00 left  [ 551 / 571 ]  96% - 0:00:00 left  [ 552 / 571 ]  97% - 0:00:00 left  [ 553 / 571 ]  97% - 0:00:00 left  [ 554 / 571 ]  97% - 0:00:00 left  [ 555 / 571 ]  97% - 0:00:00 left  [ 556 / 571 ]  97% - 0:00:00 left  [ 557 / 571 ]  98% - 0:00:00 left  [ 558 / 571 ]  98% - 0:00:00 left  [ 559 / 571 ]  98% - 0:00:00 left  [ 560 / 571 ]  98% - 0:00:00 left  [ 561 / 571 ]  98% - 0:00:00 left  [ 562 / 571 ]  98% - 0:00:00 left  [ 563 / 571 ]  99% - 0:00:00 left  [ 564 / 571 ]  99% - 0:00:00 left  [ 565 / 571 ]  99% - 0:00:00 left  [ 566 / 571 ]  99% - 0:00:00 left  [ 567 / 571 ]  99% - 0:00:00 left  [ 568 / 571 ]  99% - 0:00:00 left  [ 569 / 571 ] 100% - 0:00:00 left  [ 570 / 571 ] 100% - 0:00:00 left  [ 571 / 571 ] 100% - 0:00:00 left 
  quantization error: 0.5437414499704486
-Time elapsed for minisom:  0:00:00.016840
+Time elapsed for minisom:  0:00:00.016070
 Normalization used: MinMaxScaler
 Parameters used:  {'MiniSom': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}, 'grid_size': 2, 'train_portion': 0.5}
 --------------------------------------------------
@@ -87,56 +82,56 @@ Executing function: minisom_labels
 Data normalized with MinMaxScaler
  [   0 / 114 ]   0% - ? it/s [   0 / 114 ]   0% - ? it/s [   1 / 114 ]   1% - 0:00:00 left  [   2 / 114 ]   2% - 0:00:00 left  [   3 / 114 ]   3% - 0:00:00 left  [   4 / 114 ]   4% - 0:00:00 left  [   5 / 114 ]   4% - 0:00:00 left  [   6 / 114 ]   5% - 0:00:00 left  [   7 / 114 ]   6% - 0:00:00 left  [   8 / 114 ]   7% - 0:00:00 left  [   9 / 114 ]   8% - 0:00:00 left  [  10 / 114 ]   9% - 0:00:00 left  [  11 / 114 ]  10% - 0:00:00 left  [  12 / 114 ]  11% - 0:00:00 left  [  13 / 114 ]  11% - 0:00:00 left  [  14 / 114 ]  12% - 0:00:00 left  [  15 / 114 ]  13% - 0:00:00 left  [  16 / 114 ]  14% - 0:00:00 left  [  17 / 114 ]  15% - 0:00:00 left  [  18 / 114 ]  16% - 0:00:00 left  [  19 / 114 ]  17% - 0:00:00 left  [  20 / 114 ]  18% - 0:00:00 left  [  21 / 114 ]  18% - 0:00:00 left  [  22 / 114 ]  19% - 0:00:00 left  [  23 / 114 ]  20% - 0:00:00 left  [  24 / 114 ]  21% - 0:00:00 left  [  25 / 114 ]  22% - 0:00:00 left  [  26 / 114 ]  23% - 0:00:00 left  [  27 / 114 ]  24% - 0:00:00 left  [  28 / 114 ]  25% - 0:00:00 left  [  29 / 114 ]  25% - 0:00:00 left  [  30 / 114 ]  26% - 0:00:00 left  [  31 / 114 ]  27% - 0:00:00 left  [  32 / 114 ]  28% - 0:00:00 left  [  33 / 114 ]  29% - 0:00:00 left  [  34 / 114 ]  30% - 0:00:00 left  [  35 / 114 ]  31% - 0:00:00 left  [  36 / 114 ]  32% - 0:00:00 left  [  37 / 114 ]  32% - 0:00:00 left  [  38 / 114 ]  33% - 0:00:00 left  [  39 / 114 ]  34% - 0:00:00 left  [  40 / 114 ]  35% - 0:00:00 left  [  41 / 114 ]  36% - 0:00:00 left  [  42 / 114 ]  37% - 0:00:00 left  [  43 / 114 ]  38% - 0:00:00 left  [  44 / 114 ]  39% - 0:00:00 left  [  45 / 114 ]  39% - 0:00:00 left  [  46 / 114 ]  40% - 0:00:00 left  [  47 / 114 ]  41% - 0:00:00 left  [  48 / 114 ]  42% - 0:00:00 left  [  49 / 114 ]  43% - 0:00:00 left  [  50 / 114 ]  44% - 0:00:00 left  [  51 / 114 ]  45% - 0:00:00 left  [  52 / 114 ]  46% - 0:00:00 left  [  53 / 114 ]  46% - 0:00:00 left  [  54 / 114 ]  47% - 0:00:00 left  [  55 / 114 ]  48% - 0:00:00 left  [  56 / 114 ]  49% - 0:00:00 left  [  57 / 114 ]  50% - 0:00:00 left  [  58 / 114 ]  51% - 0:00:00 left  [  59 / 114 ]  52% - 0:00:00 left  [  60 / 114 ]  53% - 0:00:00 left  [  61 / 114 ]  54% - 0:00:00 left  [  62 / 114 ]  54% - 0:00:00 left  [  63 / 114 ]  55% - 0:00:00 left  [  64 / 114 ]  56% - 0:00:00 left  [  65 / 114 ]  57% - 0:00:00 left  [  66 / 114 ]  58% - 0:00:00 left  [  67 / 114 ]  59% - 0:00:00 left  [  68 / 114 ]  60% - 0:00:00 left  [  69 / 114 ]  61% - 0:00:00 left  [  70 / 114 ]  61% - 0:00:00 left  [  71 / 114 ]  62% - 0:00:00 left  [  72 / 114 ]  63% - 0:00:00 left  [  73 / 114 ]  64% - 0:00:00 left  [  74 / 114 ]  65% - 0:00:00 left  [  75 / 114 ]  66% - 0:00:00 left  [  76 / 114 ]  67% - 0:00:00 left  [  77 / 114 ]  68% - 0:00:00 left  [  78 / 114 ]  68% - 0:00:00 left  [  79 / 114 ]  69% - 0:00:00 left  [  80 / 114 ]  70% - 0:00:00 left  [  81 / 114 ]  71% - 0:00:00 left  [  82 / 114 ]  72% - 0:00:00 left  [  83 / 114 ]  73% - 0:00:00 left  [  84 / 114 ]  74% - 0:00:00 left  [  85 / 114 ]  75% - 0:00:00 left  [  86 / 114 ]  75% - 0:00:00 left  [  87 / 114 ]  76% - 0:00:00 left  [  88 / 114 ]  77% - 0:00:00 left  [  89 / 114 ]  78% - 0:00:00 left  [  90 / 114 ]  79% - 0:00:00 left  [  91 / 114 ]  80% - 0:00:00 left  [  92 / 114 ]  81% - 0:00:00 left  [  93 / 114 ]  82% - 0:00:00 left  [  94 / 114 ]  82% - 0:00:00 left  [  95 / 114 ]  83% - 0:00:00 left  [  96 / 114 ]  84% - 0:00:00 left  [  97 / 114 ]  85% - 0:00:00 left  [  98 / 114 ]  86% - 0:00:00 left  [  99 / 114 ]  87% - 0:00:00 left  [ 100 / 114 ]  88% - 0:00:00 left  [ 101 / 114 ]  89% - 0:00:00 left  [ 102 / 114 ]  89% - 0:00:00 left  [ 103 / 114 ]  90% - 0:00:00 left  [ 104 / 114 ]  91% - 0:00:00 left  [ 105 / 114 ]  92% - 0:00:00 left  [ 106 / 114 ]  93% - 0:00:00 left  [ 107 / 114 ]  94% - 0:00:00 left  [ 108 / 114 ]  95% - 0:00:00 left  [ 109 / 114 ]  96% - 0:00:00 left  [ 110 / 114 ]  96% - 0:00:00 left  [ 111 / 114 ]  97% - 0:00:00 left  [ 112 / 114 ]  98% - 0:00:00 left  [ 113 / 114 ]  99% - 0:00:00 left  [ 114 / 114 ] 100% - 0:00:00 left 
  quantization error: 0.6240224041726024
-Time elapsed for minisom_labels:  0:00:00.010615
+Time elapsed for minisom_labels:  0:00:00.010050
 Normalization used: MinMaxScaler
 Parameters used:  {'MiniSom': {}, 'go.Scatter': {'mode': 'markers'}, 'grid_size': 2, 'train_portion': 0.1}
 --------------------------------------------------
 Executing function: pca
 Data normalized with StandardScaler
-Time elapsed for pca:  0:00:00.097420
+Time elapsed for pca:  0:00:00.061156
 Normalization used: StandardScaler
 Parameters used:  {'2D': {'PCA': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}, '3D': {'PCA': {}, 'go.Scatter3d': {'marker': {'size': 3}, 'mode': 'markers'}}}
 --------------------------------------------------
 Executing function: pca_labels
 Data normalized with StandardScaler
-Time elapsed for pca_labels:  0:00:00.044045
+Time elapsed for pca_labels:  0:00:00.025474
 Normalization used: StandardScaler
 Parameters used:  {'2D': {'PCA': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}, '3D': {'PCA': {}, 'go.Scatter3d': {'marker': {'size': 3}, 'mode': 'markers'}}}
 --------------------------------------------------
 Executing function: qq_plot
-Time elapsed for qq_plot:  0:00:00.207652
+Time elapsed for qq_plot:  0:00:00.203835
 Parameters used:  None
 --------------------------------------------------
 Executing function: qq_plot_labels
-Time elapsed for qq_plot_labels:  0:00:01.038630
+Time elapsed for qq_plot_labels:  0:00:00.950179
 Parameters used:  None
 --------------------------------------------------
 Executing function: tsne
-Time elapsed for tsne:  0:00:07.865374
+Time elapsed for tsne:  0:00:06.435619
 Parameters used:  {'2D': {'TSNE': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}, '3D': {'TSNE': {}, 'go.Scatter3d': {'marker': {'size': 3}, 'mode': 'markers'}}}
 --------------------------------------------------
 Executing function: tsne_labels
-Time elapsed for tsne_labels:  0:00:06.078010
+Time elapsed for tsne_labels:  0:00:06.014942
 Parameters used:  {'2D': {'TSNE': {}, 'go.Scatter': {'mode': 'markers'}}, '3D': {'TSNE': {}, 'go.Scatter3d': {'mode': 'markers'}}}
 --------------------------------------------------
 Executing function: umap
 Data normalized with StandardScaler
-Time elapsed for umap:  0:00:04.636688
+Time elapsed for umap:  0:00:04.075449
 Normalization used: StandardScaler
 Parameters used:  {'2D': {'UMAP': {}, 'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}, '3D': {'UMAP': {}, 'go.Scatter3d': {'marker': {'size': 3}, 'mode': 'markers'}}}
 --------------------------------------------------
 Executing function: umap_labels
 Data normalized with StandardScaler
-Time elapsed for umap_labels:  0:00:02.411750
+Time elapsed for umap_labels:  0:00:02.268241
 Normalization used: StandardScaler
 Parameters used:  {'2D': {'UMAP': {}, 'go.Scatter': {'mode': 'markers'}}, '3D': {'UMAP': {}, 'go.Scatter3d': {'mode': 'markers'}}}
 --------------------------------------------------
 Executing function: univariate_plots
-Time elapsed for univariate_plots:  0:00:00.028771
+Time elapsed for univariate_plots:  0:00:00.028966
 Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'lines'}}
 --------------------------------------------------
 Executing function: univariate_plots_labels
-Time elapsed for univariate_plots_labels:  0:00:00.048750
+Time elapsed for univariate_plots_labels:  0:00:00.049303
 Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'lines'}}
 --------------------------------------------------
 Executing function: univariate_plots_time
@@ -145,7 +140,7 @@ Error in function: univariate_plots_time
        'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
        'pH', 'sulphates', 'alcohol', 'quality', 'Id'],
       dtype='object'))
-Time elapsed for univariate_plots_time:  0:00:00.000146
+Time elapsed for univariate_plots_time:  0:00:00.000118
 Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}
 --------------------------------------------------
 Executing function: univariate_plots_time_labels
@@ -154,16 +149,16 @@ Error in function: univariate_plots_time_labels
        'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
        'pH', 'sulphates', 'alcohol', 'quality', 'Id'],
       dtype='object'))
-Time elapsed for univariate_plots_time_labels:  0:00:00.000208
+Time elapsed for univariate_plots_time_labels:  0:00:00.000057
 Parameters used:  {'go.Scatter': {'marker': {'size': 3}, 'mode': 'markers'}}
 --------------------------------------------------
 Executing function: violinplot
-Time elapsed for violinplot:  0:00:00.027863
+Time elapsed for violinplot:  0:00:00.034009
 Parameters used:  {'go.Violin': {'box_visible': True, 'meanline_visible': True}}
 --------------------------------------------------
 Executing function: violinplot_labels
-Time elapsed for violinplot_labels:  0:00:00.048871
+Time elapsed for violinplot_labels:  0:00:00.045606
 Parameters used:  {'go.Violin': {'box_visible': True, 'meanline_visible': True}}
 --------------------------------------------------
 Index written to /Users/vascocosta/Library/CloudStorage/OneDrive-UniversidadedeAveiro/BOLSA/TESE/automatic_eda/output_wine/index.html
-Time Total: 0:00:30.016332
+Time Total: 0:00:27.033968
