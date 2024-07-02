@@ -7,17 +7,11 @@ Includes the study of the datasets of:
 - [Wine Quality Dataset](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)
 
 ## Pandas Analysis
-In the folder [Pandas](Pandas) the results of the analysis using Pandas are presented:
+In the folder [Pandas](Pandas) the results of the analysis using Pandas are presented.
+These can be accessed easily through the *index.html* file in each of the folders:
 - Pima Indians Diabetes Database [here](Pandas/diabetes/)
 - Iris Species [here](Pandas/iris/)
 - Wine Quality Dataset [here](Pandas/wine/)
-
-### Analysis Result
-The data analysis can be found in the *index.html* file 
-In the folder [polars](polars) the results of the analysis using polars are presented:
-- Pima Indians Diabetes Database [here](polars/diabetes/)
-- Iris Species [here](polars/iris/)
-- Wine Quality Dataset [here](polars/wine/)
 
 ### Logs
 You can view the detailed Pandas analysis log:
@@ -25,9 +19,12 @@ You can view the detailed Pandas analysis log:
 - Iris Species [here](Pandas/iris.log)
 - Wine Quality Dataset [here](Pandas/wine.log)
 
-### Polars Analysis
-
-### Analysis Result
+## Polars Analysis
+In the folder [polars](polars) the results of the analysis using polars are presented.
+These can be accessed easily through the *index.html* file in each of the folders:
+- Pima Indians Diabetes Database [here](polars/diabetes/)
+- Iris Species [here](polars/iris/)
+- Wine Quality Dataset [here](polars/wine/)
 
 ### Logs
 You can view the detailed Polars analysis log:
